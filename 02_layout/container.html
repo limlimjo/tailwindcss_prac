@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Container</title>
+    <script src='https://cdn.tailwindcss.com'></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+            padding: '2rem',
+          }
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- tailwindcss의 container는 반응형으로 동작한다고 보면 됨 -->
+    <main class="container max-w-2xl bg-indigo-600 text-white h-screen mx-auto">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, perferendis expedita quisquam odio consectetur,
+      dolore quidem quae officia earum inventore, temporibus harum deleniti. Doloribus minima ipsum voluptates voluptas
+      itaque repellat.
+    </main>
+  </body>
+
+</html>
